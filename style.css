@@ -27,18 +27,42 @@ body {
     flex-direction: column;
 }
 
-.main {
+.main-parent {
+    position: relative;
     width: 100vw;
     height: 80vh;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
 }
 
-.social-links {
+.main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px -5px 10px 0px rgba(0, 0, 0, 0.5);
+
+    justify-content: center;
+    align-items: center;
+
+    border: 10px solid rgba(0, 0, 0, 0);
+    border-radius: 16px;
+}
+.social-links-parent {
+    position: relative;
     width: 100vw;
     height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social-links {
+    border: 10px solid rgba(0, 0, 0, 0);
+    border-radius: 16px;
+    box-shadow: 0px -5px 10px 0px rgba(0, 0, 0, 0.5);
+    width: 23.04vw;
+    height: 7vh;
     gap: 10px;
     display: flex;
     justify-content: center;

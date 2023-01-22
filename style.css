@@ -1,0 +1,35 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #f1f1f1;
+}
+
+.main-header {
+    width: 100vw;
+    height: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-links {
+    width: 100vw;
+    height: 10vh;
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

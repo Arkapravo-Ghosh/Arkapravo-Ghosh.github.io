@@ -1,15 +1,26 @@
 * {
     margin: 0px;
     padding: 0px;
+    color: rgba(255, 255, 255, 0.888);
+    font-family: 'Cascadia Code', 'Consolas', 'Courier New', monospace;
 }
 
 body {
-    background-color: #f1f1f1;
+    background-color: #121212f6;
+}
+
+.banner {
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    color: black;
+    background-color: rgba(255, 251, 6, 0.888);
 }
 
 .main-header {
     width: 100vw;
-    height: 10px;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -32,4 +43,5 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    filter: invert(1);
 }

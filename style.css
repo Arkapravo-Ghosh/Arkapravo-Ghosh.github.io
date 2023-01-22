@@ -21,6 +21,7 @@ body {
 
 .main-header {
     width: 100vw;
+    height: 20vh;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -30,7 +31,7 @@ body {
 .main-parent {
     position: relative;
     width: 100vw;
-    height: 80vh;
+    height: 50vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -52,7 +53,7 @@ body {
 .social-links-parent {
     position: relative;
     width: 100vw;
-    height: 10vh;
+    height: 30vh;
     display: flex;
     align-items: center;
     justify-content: center;

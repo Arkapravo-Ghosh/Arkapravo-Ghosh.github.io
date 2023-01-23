@@ -52,6 +52,7 @@ body {
     border: 10px solid rgba(0, 0, 0, 0);
     border-radius: 16px;
 }
+
 .social-links-parent {
     position: relative;
     width: 100vw;
@@ -60,6 +61,7 @@ body {
     align-items: center;
     justify-content: center;
 }
+
 .social-links {
     border: 10px solid rgba(0, 0, 0, 0);
     border-radius: 16px;

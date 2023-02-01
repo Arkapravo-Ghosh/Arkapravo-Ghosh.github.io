@@ -12,7 +12,7 @@ const introdata = {
         third: "Btw I use Arch",
     },
     description: "Currently Studying in University of Engineering and Management Kolkata",
-    your_img_url: "https://wallpaperaccess.com/full/269593.png",
+    your_img_url: "https://raw.githubusercontent.com/Arkapravo-Ghosh/Ark-Portfolio/main/assets/images/side.jpg",
 };
 
 const dataabout = {

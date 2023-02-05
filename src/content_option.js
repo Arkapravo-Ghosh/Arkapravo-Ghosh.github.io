@@ -21,29 +21,29 @@ const dataabout = {
 };
 
 const skills = [{
-        name: "Linux",
-        value: 90,
-    },
-    {
-        name: "Python",
-        value: 75,
-    },
-    {
-        name: "C",
-        value: 60,
-    },
-    {
-        name: "Docker & Kubernetes",
-        value: 50,
-    },
-    {
-        name: "Google Cloud Platform",
-        value: 65,
-    },
-    {
-        name: "AWS",
-        value: 40,
-    },
+    name: "Linux",
+    value: 90,
+},
+{
+    name: "Python",
+    value: 75,
+},
+{
+    name: "C",
+    value: 60,
+},
+{
+    name: "Docker & Kubernetes",
+    value: 50,
+},
+{
+    name: "Google Cloud Platform",
+    value: 65,
+},
+{
+    name: "AWS",
+    value: 40,
+},
 ];
 
 const dataportfolio = [/*{

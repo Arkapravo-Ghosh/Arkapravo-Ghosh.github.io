@@ -7,6 +7,10 @@
     border: 1px solid var(--secondary-color);
 }
 
+a:link {
+    text-decoration: none;
+}
+
 .contact__form input.form-control {
     margin-bottom: 2em;
     height: calc(2.5em + .75rem + 2px);
@@ -33,12 +37,15 @@ button.btn.ac_btn:hover {
     0% {
         transform: translateX(-100%);
     }
+
     40% {
         transform: translateX(0%);
     }
+
     60% {
         transform: translateX(0%);
     }
+
     100% {
         transform: translateX(100%);
     }

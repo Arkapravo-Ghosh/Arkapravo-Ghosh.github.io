@@ -96,7 +96,7 @@ export const ContactUs = () => {
             <h3 className="color_sec py-4">Feel free to contact</h3>
             <address>
               <strong>Email:</strong>{" "}
-              <a href={`mailto:${contactConfig.YOUR_EMAIL}`}>
+              <a href={`mailto:${contactConfig.YOUR_EMAIL}`} >
                 {contactConfig.YOUR_EMAIL}
               </a>
               <br />

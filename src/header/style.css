@@ -196,7 +196,7 @@
 
 .menu_footer {
     bottom: 0;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Consolas', monospace;
     font-size: 14px;
     background: var(--primary-color);
 }

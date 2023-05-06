@@ -18,3 +18,103 @@
     font-size: 18px;
     font-weight: 400;
 }
+
+.Home-Buttons {
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    gap: 20px;
+}
+
+.Home-Button {
+    width: 150px;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #000000;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border: 1px solid #ffffff;
+    font-size: 15px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.Home-Button:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 2px);
+    height: calc(100% + 2px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+}
+
+.Home-Button:active {
+    border: 1px solid #ffffff;
+}
+
+.Home-Button p:active {
+    background: linear-gradient(90deg, green, cyan);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.Home-Button:hover:before {
+    opacity: 1;
+}
+
+.Home-Button:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #000000;
+    left: 0;
+    top: 0;
+}
+
+@keyframes glowing {
+    0% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 400% 0;
+    }
+
+    100% {
+        background-position: 0 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .Home {
+        padding-left: unset;
+    }
+
+    .Home-Header h1 {
+        padding-left: 10vw;
+    }
+
+    .Home-Typewriter {
+        padding-left: 10vw;
+    }
+
+    .Home-Buttons {
+        align-self: center;
+    }
+}

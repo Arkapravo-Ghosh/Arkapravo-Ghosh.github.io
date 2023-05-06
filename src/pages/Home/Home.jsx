@@ -1,6 +1,7 @@
 import React from "react";
 import "./Home.css";
 import Typewriter from "typewriter-effect";
+import { Link, Outlet } from "react-router-dom";
 
 const typestrings = [
   'DevSecOps Engineer',
@@ -22,6 +23,14 @@ export default function Home() {
             deleteSpeed: 20,
           }}
         />
+      </div>
+      <div className="Home-Buttons">
+        <Link to="/about" style={{ textDecoration: 'none' }}>
+          <button className="Home-Button"><p>About Me</p></button>
+        </Link>
+        <Link to="/contact" style={{ textDecoration: 'none' }}>
+          <button className="Home-Button"><p>Contact</p></button>
+        </Link>
       </div>
     </div>
   );

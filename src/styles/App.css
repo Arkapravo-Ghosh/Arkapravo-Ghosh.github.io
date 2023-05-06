@@ -1,7 +1,7 @@
 /* Import all ttf fonts from assets/futura */
 @font-face {
   font-family: 'Futura';
-  src: url('../assets/futura/Futura\ Bold\ font.ttf') format('truetype');
+  src: url('../assets/futura/Futura-Book-font.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }

@@ -1,17 +1,30 @@
 import React from 'react'
-// import reactLogo from './assets/react.svg'
-// import viteLogo from '/vite.svg'
+import {
+  Route,
+  createBrowserRouter,
+  createRoutesFromElements,
+  RouterProvider,
+} from "react-router-dom";
 import './styles/App.css'
+import NavBar from './components/NavBar/NavBar'
 import Footer from './components/Footer/Footer'
+import Home from './pages/Home/Home';
 
-function App() {
-  // const [count, setCount] = useState(0)
-
-  return (
-    <>
-      <Footer />
-    </>
+const router = createBrowserRouter(
+  createRoutesFromElements(
+    <Route path="/" element={<NavBar />}>
+      <Route path="/" element={<Home />} />
+    </Route>
   )
-}
+);
 
-export default App
+export default function App({ routes }) {
+  return (
+    <div className="App">
+      <React.Fragment>
+        <RouterProvider router={router} />
+        <Footer />
+      </React.Fragment>
+    </div>
+  );
+}

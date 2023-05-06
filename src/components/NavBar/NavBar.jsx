@@ -51,10 +51,6 @@ const sidebar_item = {
   },
 };
 
-const sidetextHover = {
-
-};
-
 export default function NavBar() {
   const [showSidebar, setShowSidebar] = useState(false);
   return (
@@ -81,6 +77,12 @@ export default function NavBar() {
               </motion.li>
               <motion.li transition={spring} whileHover={textHover}>
                 <NavLink to="/about">About</NavLink>
+              </motion.li>
+              <motion.li transition={spring} whileHover={textHover}>
+                <NavLink to="/portfolio">Portfolio</NavLink>
+              </motion.li>
+              <motion.li transition={spring} whileHover={textHover}>
+                <NavLink to="/contact">Contact</NavLink>
               </motion.li>
             </ul>
           </div>
@@ -109,11 +111,17 @@ export default function NavBar() {
                   initial="start"
                   animate="finished"
                 >
-                  <motion.li variants={sidebar_item} whileHover={sidetextHover}>
+                  <motion.li variants={sidebar_item}>
                     <NavLink to="/">Home</NavLink>
                   </motion.li>
-                  <motion.li variants={sidebar_item} whileHover={sidetextHover}>
+                  <motion.li variants={sidebar_item}>
                     <NavLink to="/about">About</NavLink>
+                  </motion.li>
+                  <motion.li variants={sidebar_item}>
+                    <NavLink to="/portfolio">Portfolio</NavLink>
+                  </motion.li>
+                  <motion.li variants={sidebar_item}>
+                    <NavLink to="/contact">Contact</NavLink>
                   </motion.li>
                 </motion.ul>
               </AnimatePresence>

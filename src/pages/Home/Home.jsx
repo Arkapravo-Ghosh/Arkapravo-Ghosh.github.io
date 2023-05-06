@@ -1,5 +1,4 @@
 import React from "react";
-import { Route, createBrowserRouter, createRoutesFromElements, RouterProvider, } from "react-router-dom";
 import "./Home.css";
 import Typewriter from "typewriter-effect";
 
@@ -21,7 +20,6 @@ export default function Home() {
             autoStart: true,
             loop: true,
             deleteSpeed: 20,
-            cursor: "|",
           }}
         />
       </div>

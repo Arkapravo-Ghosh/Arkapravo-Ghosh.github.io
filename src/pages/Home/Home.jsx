@@ -1,7 +1,8 @@
 import React from "react";
 import "./Home.css";
 import Typewriter from "typewriter-effect";
-import { Link, Outlet } from "react-router-dom";
+import { Link } from "react-router-dom";
+import Side from "../../assets/side-comp.jpg";
 
 const typestrings = [
   'DevSecOps Engineer',
@@ -31,6 +32,9 @@ export default function Home() {
         <Link to="/contact" style={{ textDecoration: 'none' }}>
           <button className="Home-Button"><p>Contact</p></button>
         </Link>
+      </div>
+      <div className="Home-Side">
+        <img src={Side} alt="Side Image" />
       </div>
     </div>
   );

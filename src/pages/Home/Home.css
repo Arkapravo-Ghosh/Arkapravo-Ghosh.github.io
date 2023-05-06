@@ -36,7 +36,7 @@
     cursor: pointer;
     position: relative;
     z-index: 0;
-    border: 1px solid #ffffff;
+    border: 1.5px solid #ffffff;
     font-size: 15px;
     font-weight: 600;
     display: flex;
@@ -62,7 +62,7 @@
 }
 
 .Home-Button:active {
-    border: 1px solid #ffffff;
+    border: 1.5px solid #ffffff;
 }
 
 .Home-Button p:active {

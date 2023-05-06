@@ -7,6 +7,8 @@ footer {
     color: white;
     background-color: rgb(35, 35, 48);
     height: 50px;
+    font: 'Futura';
+    font-size: 15px;
 }
 
 .footer-copy {

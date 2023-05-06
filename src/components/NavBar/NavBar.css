@@ -75,7 +75,7 @@
     .logo {
         display: unset;
         position: fixed;
-        left: calc(50% - 20px);
+        right: 5px;
     }
 
     .logo img {
@@ -92,6 +92,7 @@
 
     .heading {
         top: 5px;
+        left: calc(50% - 30px);
     }
 
     .nav-menu {

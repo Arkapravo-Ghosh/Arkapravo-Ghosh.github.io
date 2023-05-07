@@ -3,7 +3,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import navMenuIcon from "../../assets/nav-menu-icon.svg";
 import "./NavBar.css";
 import { Outlet, NavLink } from "react-router-dom";
-import logo from "/Ark_Logo.svg";
+import logo from "/Ark_Logo.webp";
 
 const textHover = {
   type: "spring",

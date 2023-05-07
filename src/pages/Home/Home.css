@@ -74,8 +74,9 @@
     border: 1.5px solid #ffffff;
 }
 
-.Home-Button p:active {
-    background: linear-gradient(90deg, green, cyan);
+.Home-Button:hover>p {
+    background: cyan;
+    background-size: 400%;
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;

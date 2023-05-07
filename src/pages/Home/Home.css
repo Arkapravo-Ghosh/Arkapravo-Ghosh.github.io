@@ -107,22 +107,10 @@
     z-index: -10;
 }
 
-@media screen and (max-width: 1400px) {
-    .Home-Side {
-        right: -30vw;
-    }
-}
-
-@media screen and (max-width: 1300px) {
-    .Home-Side {
-        right: -40vw;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .Home-Side {
-        right: -100vw;
-    }
+.Home-Side img {
+    height: 100vh;
+    object-fit: cover;
+    width: 40vw;
 }
 
 @media screen and (max-width: 600px) {

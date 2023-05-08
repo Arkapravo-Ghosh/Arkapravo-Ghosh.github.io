@@ -117,7 +117,7 @@
     filter: contrast(1.04);
     -webkit-backdrop-filter: blur(5000px);
     backdrop-filter: blur(5000px);
-    animation: glowing 2s linear infinite;
+    animation: glowing 20s linear infinite;
 }
 
 @keyframes glowing {

@@ -113,7 +113,7 @@
     object-fit: cover;
     width: 40vw;
     background: linear-gradient(45deg, #ff0000df, #ff7300df, #fffb00df, #48ff00df, #00ffd5df, #002bffdf, #7a00ffdf, #ff00c8df, #ff0000df, #ff7300df, #fffb00df, #48ff00df);
-    background-size: 400%;
+    background-size: 2446px;
     filter: contrast(1.04);
     -webkit-backdrop-filter: blur(5000px);
     backdrop-filter: blur(5000px);
@@ -126,7 +126,7 @@
     }
 
     to {
-        background-position: 400% 0;
+        background-position: 2446px 0;
     }
 }
 

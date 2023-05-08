@@ -26,3 +26,4 @@ yarn-error.log*
 # misc
 .old
 deploy.sh
+.hintrc

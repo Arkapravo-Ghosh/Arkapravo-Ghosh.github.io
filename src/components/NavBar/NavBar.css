@@ -39,6 +39,7 @@
 .list ul {
     display: flex;
     gap: 20px;
+    margin-left: -40px;
 }
 
 .list li {

@@ -27,7 +27,7 @@ npm run build
 ```
 - Run the production build
 #### Install `serve`
-```bash=
+```bash
 npm i -g serve
 ```
 #### Run the production build using `serve`

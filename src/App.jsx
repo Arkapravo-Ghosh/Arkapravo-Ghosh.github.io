@@ -26,17 +26,25 @@ const router = createBrowserRouter(
 );
 
 export default function App({ routes }) {
+  const outerAlpha = 0.3;
+  const innerSize = 13.5;
+  const outerSize = 13.5;
+  const outerScale = 6;
+  const innerScale = 0.8;
+  const trailingSpeed = 8;
+  const innerStyle = { backgroundColor: 'var(--inner-cursor-color)' };
+  const outerStyle = { backgroundColor: 'var(--outer-cursor-color)' };
   return (
     <div className="App">
       <AnimatedCursor
-        outerAlpha={0.3}
-        innerSize={13.5}
-        outerSize={13.5}
-        outerScale={6}
-        innerScale={0.8}
-        trailingSpeed={8}
-        innerStyle={{ backgroundColor: 'var(--inner-cursor-color)' }}
-        outerStyle={{ backgroundColor: 'var(--outer-cursor-color)' }}
+        outerAlpha={outerAlpha}
+        innerSize={innerSize}
+        outerSize={outerSize}
+        outerScale={outerScale}
+        innerScale={innerScale}
+        trailingSpeed={trailingSpeed}
+        innerStyle={innerStyle}
+        outerStyle={outerStyle}
       />
       <React.Fragment>
         <RouterProvider router={router} />

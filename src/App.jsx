@@ -35,8 +35,8 @@ export default function App({ routes }) {
         outerScale={6}
         innerScale={0.8}
         trailingSpeed={8}
-        innerStyle={{ backgroundColor: 'var(--inner-cursor-color)'} }
-        outerStyle={{ backgroundColor: 'var(--outer-cursor-color)'} }
+        innerStyle={{ backgroundColor: 'var(--inner-cursor-color)' }}
+        outerStyle={{ backgroundColor: 'var(--outer-cursor-color)' }}
       />
       <React.Fragment>
         <RouterProvider router={router} />

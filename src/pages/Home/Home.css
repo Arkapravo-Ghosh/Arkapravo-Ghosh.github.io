@@ -102,20 +102,6 @@
     top: 0;
 }
 
-@keyframes glowing {
-    0% {
-        background-position: 0 0;
-    }
-
-    50% {
-        background-position: 400% 0;
-    }
-
-    100% {
-        background-position: 0 0;
-    }
-}
-
 .Home-Side {
     position: fixed;
     right: 0;
@@ -126,6 +112,22 @@
     height: 100vh;
     object-fit: cover;
     width: 40vw;
+    background: linear-gradient(45deg, #ff0000df, #ff7300df, #fffb00df, #48ff00df, #00ffd5df, #002bffdf, #7a00ffdf, #ff00c8df, #ff0000df, #ff7300df, #fffb00df, #48ff00df);
+    background-size: 400%;
+    filter: contrast(1.04);
+    -webkit-backdrop-filter: blur(5000px);
+    backdrop-filter: blur(5000px);
+    animation: glowing 20s linear infinite;
+}
+
+@keyframes glowing {
+    from {
+        background-position: 0 0;
+    }
+
+    to {
+        background-position: 400% 0;
+    }
 }
 
 @media screen and (max-width: 600px) {

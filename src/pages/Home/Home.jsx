@@ -2,7 +2,7 @@ import React from "react";
 import "./Home.css";
 import Typewriter from "typewriter-effect";
 import { Link } from "react-router-dom";
-import Side from "../../assets/side-comp.jpg";
+import Side from "../../assets/side-comp.png";
 
 const typestrings = [
   'DevSecOps Engineer',

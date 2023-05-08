@@ -29,13 +29,14 @@ export default function App({ routes }) {
   return (
     <div className="App">
       <AnimatedCursor
-        color='58, 163, 216'
         outerAlpha={0.3}
         innerSize={13.5}
         outerSize={13.5}
         outerScale={6}
         innerScale={0.8}
         trailingSpeed={8}
+        innerStyle={{ backgroundColor: 'var(--inner-cursor-color)'} }
+        outerStyle={{ backgroundColor: 'var(--outer-cursor-color)'} }
       />
       <React.Fragment>
         <RouterProvider router={router} />

@@ -34,7 +34,7 @@ export default function App({ routes }) {
   const trailingSpeed = 8;
   const innerStyle = { backgroundColor: 'var(--inner-cursor-color)' };
   const outerStyle = { backgroundColor: 'var(--outer-cursor-color)' };
-  const clickables = ['.clickable'];
+  const clickables = ['.Home-Button'];
   return (
     <div className="App">
       <AnimatedCursor

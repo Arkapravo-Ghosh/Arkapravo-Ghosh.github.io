@@ -34,6 +34,7 @@ export default function App({ routes }) {
   const trailingSpeed = 8;
   const innerStyle = { backgroundColor: 'var(--inner-cursor-color)' };
   const outerStyle = { backgroundColor: 'var(--outer-cursor-color)' };
+  const clickables = ['.clickable'];
   return (
     <div className="App">
       <AnimatedCursor
@@ -45,6 +46,7 @@ export default function App({ routes }) {
         trailingSpeed={trailingSpeed}
         innerStyle={innerStyle}
         outerStyle={outerStyle}
+        clickables={clickables}
       />
       <React.Fragment>
         <RouterProvider router={router} />

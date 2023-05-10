@@ -199,7 +199,7 @@
     }
 }
 
-.Home-Side-Bottom {
+.Home-Bottom {
     display: none;
 }
 
@@ -258,14 +258,14 @@
         height: 25vh;
     }
 
-    .Home-Side-Bottom {
+    .Home-Bottom {
         display: unset;
         position: fixed;
         z-index: -10;
         bottom: 100px;
     }
 
-    .Home-Side-Bottom img {
+    .Home-Bottom img {
         height: 50px;
         object-fit: cover;
         width: 100vw;

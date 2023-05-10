@@ -74,7 +74,7 @@ export default function Home() {
       <div className="Home-Side">
         <img src={Side} alt="Side Image" />
       </div>
-      <div className="Home-Side-Bottom">
+      <div className="Home-Bottom">
         <img src={Side} alt="Bottom Image" />
       </div>
     </div>

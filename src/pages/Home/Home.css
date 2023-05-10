@@ -199,6 +199,10 @@
     }
 }
 
+.Home-Side-Bottom {
+    display: none;
+}
+
 .Home-Side {
     position: fixed;
     right: 0;
@@ -245,6 +249,29 @@
     }
 
     .Home-Side {
-        display: none;
+        right: unset;
+        top: 0;
+    }
+
+    .Home-Side img {
+        width: 100vw;
+        height: 25vh;
+    }
+
+    .Home-Side-Bottom {
+        display: unset;
+        position: fixed;
+        z-index: -10;
+        bottom: 97px;
+    }
+
+    .Home-Side-Bottom img {
+        height: 50px;
+        object-fit: cover;
+        width: 100vw;
+        background: #ffffff99;
+        background-size: 400rem;
+        filter: contrast(1.04);
+        filter: blur(1.8px);
     }
 }

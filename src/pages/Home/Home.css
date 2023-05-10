@@ -269,9 +269,16 @@
         height: 50px;
         object-fit: cover;
         width: 100vw;
-        background: #ffffff99;
+        background: linear-gradient(90deg, #636363, #262626, #636363);
         background-size: 400rem;
         filter: contrast(1.04);
-        filter: blur(1.8px);
+        filter: blur(1.2px);
+        -webkit-backdrop-filter: blur(5000px);
+        backdrop-filter: blur(5000px);
+        animation: glowing 5s linear infinite;
+    }
+
+    .Social-Links {
+        text-shadow: #000000 0px 0px 10px;
     }
 }

@@ -14,6 +14,7 @@ const textHover = {
   duration: 0.2,
 };
 
+/*
 const LogoHover = {
   type: "spring",
   scale: 1.1,
@@ -22,6 +23,7 @@ const LogoHover = {
   damping: 25,
   duration: 0.2,
 };
+*/
 
 const spring = {
   type: "spring",
@@ -60,7 +62,6 @@ export default function NavBar() {
           <div className="logo">
             <NavLink to="/">
               <motion.img
-                whileHover={LogoHover}
                 height="30x"
                 width="30px"
                 src={logo}
@@ -87,10 +88,7 @@ export default function NavBar() {
             </ul>
           </div>
           <NavLink to="/">
-            <motion.div
-              className='heading'
-              whileHover={textHover}
-            >
+            <motion.div className='heading'>
               Ark Site
             </motion.div>
           </NavLink>

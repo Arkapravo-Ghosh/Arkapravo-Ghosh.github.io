@@ -3,6 +3,14 @@ import "./Home.css";
 import Typewriter from "typewriter-effect";
 import { Link } from "react-router-dom";
 import Side from "../../assets/side-comp.png";
+import {
+  FaGithub,
+  FaTwitter,
+  FaFacebookF,
+  FaLinkedin,
+  FaYoutube,
+  FaTwitch,
+} from "react-icons/fa";
 
 const typestrings = [
   'DevSecOps Engineer',
@@ -34,6 +42,32 @@ export default function Home() {
             <button className="Home-Button"><p>Contact</p></button>
           </Link>
         </div>
+      </div>
+      <div className="Social-Links">
+        <ul>
+          {"https://twitter.com/ArkapravoGhosh1" && (
+            <li>
+              <a href="https://twitter.com/ArkapravoGhosh1">
+                <FaTwitter />
+              </a>
+            </li>
+          )}
+          {"https://github.com/Arkapravo-Ghosh" && (
+            <li>
+              <a href="https://github.com/Arkapravo-Ghosh">
+                <FaGithub />
+              </a>
+            </li>
+          )}
+          {"https://www.linkedin.com/in/Arkapravo-Ghosh" && (
+            <li>
+              <a href="https://www.linkedin.com/in/Arkapravo-Ghosh">
+                <FaLinkedin />
+              </a>
+            </li>
+          )}
+        </ul>
+        <p>Follow Me</p>
       </div>
       <div className="Home-Side">
         <img src={Side} alt="Side Image" />

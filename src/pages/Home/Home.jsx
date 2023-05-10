@@ -46,21 +46,21 @@ export default function Home() {
       <div className="Social-Links">
         <ul>
           {"https://twitter.com/ArkapravoGhosh1" && (
-            <li>
+            <li className="social-icon">
               <a href="https://twitter.com/ArkapravoGhosh1">
                 <FaTwitter />
               </a>
             </li>
           )}
           {"https://github.com/Arkapravo-Ghosh" && (
-            <li>
+            <li className="social-icon">
               <a href="https://github.com/Arkapravo-Ghosh">
                 <FaGithub />
               </a>
             </li>
           )}
           {"https://www.linkedin.com/in/Arkapravo-Ghosh" && (
-            <li>
+            <li className="social-icon">
               <a href="https://www.linkedin.com/in/Arkapravo-Ghosh">
                 <FaLinkedin />
               </a>

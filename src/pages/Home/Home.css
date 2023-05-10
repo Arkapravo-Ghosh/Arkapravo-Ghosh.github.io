@@ -10,7 +10,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    height: 90vh;
+    height: 80vh;
     gap: 0px;
     padding-left: 10vw;
 }
@@ -161,6 +161,15 @@
 }
 
 @media only screen and (max-width: 600px) {
+    .Home-Social {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        position: fixed;
+        bottom: 100px;
+        z-index: 99999;
+    }
+
     .Social-Links {
         width: unset;
         height: unset;
@@ -170,7 +179,6 @@
         flex-direction: row-reverse;
         justify-content: center;
         align-items: center;
-        z-index: 99999;
     }
 
     .Social-Links p {
@@ -183,12 +191,9 @@
         transform: unset;
         font-size: 17px;
         margin-right: 55px;
-        padding-bottom: 100px;
     }
 
-    .Social-Links ul {
-        margin-bottom: 100px;
-    }
+    .Social-Links ul {}
 
     .Social-Links ul li {
         display: inline;

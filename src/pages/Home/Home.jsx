@@ -43,31 +43,33 @@ export default function Home() {
           </Link>
         </div>
       </div>
-      <div className="Social-Links">
-        <ul>
-          {"https://twitter.com/ArkapravoGhosh1" && (
-            <li className="social-icon">
-              <a href="https://twitter.com/ArkapravoGhosh1" target="_blank">
-                <FaTwitter />
-              </a>
-            </li>
-          )}
-          {"https://github.com/Arkapravo-Ghosh" && (
-            <li className="social-icon">
-              <a href="https://github.com/Arkapravo-Ghosh" target="_blank">
-                <FaGithub />
-              </a>
-            </li>
-          )}
-          {"https://www.linkedin.com/in/Arkapravo-Ghosh" && (
-            <li className="social-icon">
-              <a href="https://www.linkedin.com/in/Arkapravo-Ghosh" target="_blank">
-                <FaLinkedin />
-              </a>
-            </li>
-          )}
-        </ul>
-        <p>Follow Me</p>
+      <div className="Home-Social">
+        <div className="Social-Links">
+          <ul>
+            {"https://twitter.com/ArkapravoGhosh1" && (
+              <li className="social-icon">
+                <a href="https://twitter.com/ArkapravoGhosh1" target="_blank">
+                  <FaTwitter />
+                </a>
+              </li>
+            )}
+            {"https://github.com/Arkapravo-Ghosh" && (
+              <li className="social-icon">
+                <a href="https://github.com/Arkapravo-Ghosh" target="_blank">
+                  <FaGithub />
+                </a>
+              </li>
+            )}
+            {"https://www.linkedin.com/in/Arkapravo-Ghosh" && (
+              <li className="social-icon">
+                <a href="https://www.linkedin.com/in/Arkapravo-Ghosh" target="_blank">
+                  <FaLinkedin />
+                </a>
+              </li>
+            )}
+          </ul>
+          <p>Follow Me</p>
+        </div>
       </div>
       <div className="Home-Side">
         <img src={Side} alt="Side Image" />

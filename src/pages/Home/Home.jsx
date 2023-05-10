@@ -47,21 +47,21 @@ export default function Home() {
         <ul>
           {"https://twitter.com/ArkapravoGhosh1" && (
             <li className="social-icon">
-              <a href="https://twitter.com/ArkapravoGhosh1">
+              <a href="https://twitter.com/ArkapravoGhosh1" target="_blank">
                 <FaTwitter />
               </a>
             </li>
           )}
           {"https://github.com/Arkapravo-Ghosh" && (
             <li className="social-icon">
-              <a href="https://github.com/Arkapravo-Ghosh">
+              <a href="https://github.com/Arkapravo-Ghosh" target="_blank">
                 <FaGithub />
               </a>
             </li>
           )}
           {"https://www.linkedin.com/in/Arkapravo-Ghosh" && (
             <li className="social-icon">
-              <a href="https://www.linkedin.com/in/Arkapravo-Ghosh">
+              <a href="https://www.linkedin.com/in/Arkapravo-Ghosh" target="_blank">
                 <FaLinkedin />
               </a>
             </li>

@@ -31,15 +31,15 @@ footer {
 @media (max-width: 768px) {
     footer {
         flex-direction: column;
-        height: 100px;
+        height: 105px;
+        justify-content: center;
+        align-items: center;
     }
     .footer-copy {
-        align-self: center;
         bottom: 40px;
     }
     .footer-author {
-        align-self: center;
-        bottom: 5px;
+        bottom: 10px;
         right: unset;
         position: fixed;
     }

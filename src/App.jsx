@@ -4,15 +4,20 @@ import {
   createBrowserRouter,
   createRoutesFromElements,
   RouterProvider,
+  useLocation
 } from 'react-router-dom';
 import './styles/App.css';
 import AnimatedCursor from 'react-animated-cursor';
+import ReactGA from 'react-ga4';
 import NavBar from './components/NavBar/NavBar';
 import Footer from './components/Footer/Footer';
 import Home from './pages/Home/Home';
 import About from './pages/About/About';
 import Portfolio from './pages/Portfolio/Portfolio';
 import Contact from './pages/Contact/Contact';
+
+const TRACKING_ID = "G-X56MMZ2G83";
+ReactGA.initialize(TRACKING_ID);
 
 const router = createBrowserRouter(
   createRoutesFromElements(

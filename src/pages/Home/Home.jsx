@@ -6,10 +6,7 @@ import Side from "../../assets/side-comp.png";
 import {
   FaGithub,
   FaTwitter,
-  FaFacebookF,
   FaLinkedin,
-  FaYoutube,
-  FaTwitch,
 } from "react-icons/fa";
 
 const typestrings = [

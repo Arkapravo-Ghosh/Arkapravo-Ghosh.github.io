@@ -88,7 +88,7 @@
 
 .Home-Button:hover {
     transform: scale(1.02);
-    cursor: none;
+    /* cursor: none; */
 }
 
 .Home-Button:after {
@@ -156,9 +156,11 @@
     background-color: #fff;
 }
 
+/*
 .Social-Links a:hover {
     cursor: none;
 }
+*/
 
 @media only screen and (max-width: 600px) {
     .Home-Social {

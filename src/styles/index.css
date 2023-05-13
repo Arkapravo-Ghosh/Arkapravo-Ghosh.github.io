@@ -1,7 +1,7 @@
 html {
   --inner-cursor-color: cyan;
   --outer-cursor-color: rgba(255, 255, 255, 0.5);
-  cursor: none;
+  /* cursor: none; */
 }
 
 :root {

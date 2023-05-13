@@ -1,10 +1,8 @@
 import React from 'react';
 import {
+  BrowserRouter as Router,
   Route,
-  createBrowserRouter,
-  createRoutesFromElements,
-  RouterProvider,
-  useLocation
+  Routes,
 } from 'react-router-dom';
 import './styles/App.css';
 import AnimatedCursor from 'react-animated-cursor';
@@ -19,18 +17,7 @@ import Contact from './pages/Contact/Contact';
 const TRACKING_ID = "G-X56MMZ2G83";
 ReactGA.initialize(TRACKING_ID);
 
-const router = createBrowserRouter(
-  createRoutesFromElements(
-    <Route path="/" element={<NavBar />}>
-      <Route path="/" element={<Home />} />
-      <Route path="/about" element={<About />} />
-      <Route path="/portfolio" element={<Portfolio />} />
-      <Route path="/contact" element={<Contact />} />
-    </Route>
-  )
-);
-
-export default function App({ routes }) {
+export default function App() {
   const outerAlpha = 0.3;
   const innerSize = 13.5;
   const outerSize = 13.5;
@@ -40,6 +27,7 @@ export default function App({ routes }) {
   const innerStyle = { backgroundColor: 'var(--inner-cursor-color)' };
   const outerStyle = { backgroundColor: 'var(--outer-cursor-color)' };
   const clickables = ['.Home-Button', '.social-icon'];
+
   return (
     <div className="App">
       <AnimatedCursor
@@ -53,10 +41,16 @@ export default function App({ routes }) {
         outerStyle={outerStyle}
         clickables={clickables}
       />
-      <React.Fragment>
-        <RouterProvider router={router} />
+      <Router>
+        <NavBar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
         <Footer />
-      </React.Fragment>
+      </Router>
     </div>
   );
 }

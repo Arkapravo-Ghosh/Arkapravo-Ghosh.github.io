@@ -1,0 +1,40 @@
+.Contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.Contact-Header {
+    width: 100%;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Contact-Body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.Contact-Body-Left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20vw;
+}
+
+.Contact-Body-Left a {
+    color: #fff;
+}
+
+.Contact-Body-Left a:hover {
+    cursor: none;
+}
+
+.Contact-Body-Right {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}

@@ -29,7 +29,9 @@ jobs:
     - run: npm ci
     - run: npm run build --if-present
     - name: Deploy
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       uses: peaceiris/actions-gh-pages@v3
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
+        github_token: $GITHUB_TOKEN
         publish_dir: ./dist

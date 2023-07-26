@@ -4,4 +4,16 @@
     <loc>https://ark.ark-tech.in/</loc>
     <image>https://ark.ark-tech.in/Ark_Logo.webp</image>
   </url>
+  <url>
+    <loc>https://ark.ark-tech.in/about</loc>
+    <image>https://ark.ark-tech.in/Ark_Logo.webp</image>
+  </url>
+  <url>
+    <loc>https://ark.ark-tech.in/contact</loc>
+    <image>https://ark.ark-tech.in/Ark_Logo.webp</image>
+  </url>
+  <url>
+    <loc>https://ark.ark-tech.in/portfolio</loc>
+    <image>https://ark.ark-tech.in/Ark_Logo.webp</image>
+  </url>
 </urlset>

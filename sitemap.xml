@@ -1,19 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://ark.ark-tech.in/</loc>
-    <image>https://ark.ark-tech.in/Ark_Logo.webp</image>
+    <image>
+      <image:loc>https://ark.ark-tech.in/Ark_Logo.webp</image:loc>
+      <image:family_friendly>yes</image:family_friendly>
+      <image:landing_page_loc>https://ark.ark-tech.in/</image:landing_page_loc>
+    </image>
   </url>
   <url>
     <loc>https://ark.ark-tech.in/about</loc>
-    <image>https://ark.ark-tech.in/Ark_Logo.webp</image>
+    <image>
+      <image:loc>https://ark.ark-tech.in/Ark_Logo.webp</image:loc>
+      <image:family_friendly>yes</image:family_friendly>
+      <image:landing_page_loc>https://ark.ark-tech.in/about</image:landing_page_loc>
+    </image>
   </url>
   <url>
     <loc>https://ark.ark-tech.in/contact</loc>
-    <image>https://ark.ark-tech.in/Ark_Logo.webp</image>
+    <image>
+      <image:loc>https://ark.ark-tech.in/Ark_Logo.webp</image:loc>
+      <image:family_friendly>yes</image:family_friendly>
+      <image:landing_page_loc>https://ark.ark-tech.in/contact</image:landing_page_loc>
+    </image>
   </url>
   <url>
     <loc>https://ark.ark-tech.in/portfolio</loc>
-    <image>https://ark.ark-tech.in/Ark_Logo.webp</image>
+    <image>
+      <image:loc>https://ark.ark-tech.in/Ark_Logo.webp</image:loc>
+      <image:family_friendly>yes</image:family_friendly>
+      <image:landing_page_loc>https://ark.ark-tech.in/portfolio</image:landing_page_loc>
+    </image>
   </url>
 </urlset>

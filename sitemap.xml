@@ -3,33 +3,33 @@
   <url>
     <loc>https://ark.ark-tech.in/</loc>
     <image>
-      <image:loc>https://ark.ark-tech.in/Ark_Logo.webp</image:loc>
-      <image:family_friendly>yes</image:family_friendly>
-      <image:landing_page_loc>https://ark.ark-tech.in/</image:landing_page_loc>
+      <loc>https://ark.ark-tech.in/Ark_Logo.webp</loc>
+      <family_friendly>yes</family_friendly>
+      <landing_page_loc>https://ark.ark-tech.in/</landing_page_loc>
     </image>
   </url>
   <url>
     <loc>https://ark.ark-tech.in/about</loc>
     <image>
-      <image:loc>https://ark.ark-tech.in/Ark_Logo.webp</image:loc>
-      <image:family_friendly>yes</image:family_friendly>
-      <image:landing_page_loc>https://ark.ark-tech.in/about</image:landing_page_loc>
+      <loc>https://ark.ark-tech.in/Ark_Logo.webp</loc>
+      <family_friendly>yes</family_friendly>
+      <landing_page_loc>https://ark.ark-tech.in/about</landing_page_loc>
     </image>
   </url>
   <url>
     <loc>https://ark.ark-tech.in/contact</loc>
     <image>
-      <image:loc>https://ark.ark-tech.in/Ark_Logo.webp</image:loc>
-      <image:family_friendly>yes</image:family_friendly>
-      <image:landing_page_loc>https://ark.ark-tech.in/contact</image:landing_page_loc>
+      <loc>https://ark.ark-tech.in/Ark_Logo.webp</loc>
+      <family_friendly>yes</family_friendly>
+      <landing_page_loc>https://ark.ark-tech.in/contact</landing_page_loc>
     </image>
   </url>
   <url>
     <loc>https://ark.ark-tech.in/portfolio</loc>
     <image>
-      <image:loc>https://ark.ark-tech.in/Ark_Logo.webp</image:loc>
-      <image:family_friendly>yes</image:family_friendly>
-      <image:landing_page_loc>https://ark.ark-tech.in/portfolio</image:landing_page_loc>
+      <loc>https://ark.ark-tech.in/Ark_Logo.webp</loc>
+      <family_friendly>yes</family_friendly>
+      <landing_page_loc>https://ark.ark-tech.in/portfolio</landing_page_loc>
     </image>
   </url>
 </urlset>

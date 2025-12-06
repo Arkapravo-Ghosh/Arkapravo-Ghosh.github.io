@@ -1,11 +1,8 @@
-User-agent: *
-
+User-Agent: *
 Allow: /
+Disallow: /api/
+Disallow: /_next/
+Disallow: /static/
 
-Allow: /about
-
-Allow: /contact
-
-Allow: /portfolio
-
-Sitemap: https://ark.ark-tech.in/sitemap.xml
+Host: https://arkapravo.in
+Sitemap: https://arkapravo.in/sitemap.xml
